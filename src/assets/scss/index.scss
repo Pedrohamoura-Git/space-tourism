@@ -1,7 +1,10 @@
+// @import './_fonts.scss';
+@import './_variables.scss';
+
 * {
   box-sizing: border-box;
   // color: $color-txt;
-  font-family: "Josefin Sans", sans-serif;
+  font-size: $font-size;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -34,8 +37,4 @@ body {
   // @include tablet {
   //   width: 90%;
   // }
-}
-
-.App-link {
-  color: #61dafb;
 }
