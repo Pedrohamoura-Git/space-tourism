@@ -7,7 +7,7 @@ export default function Navbar() {
 
     return (
         <nav className="navbar">
-            <img src={logo} alt="logo" />
+            <img src={logo} alt="logo" className='logo'/>
             <span className="divider" />
 
             <div className="burger-plc" />
