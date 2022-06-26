@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  // color: $color-txt;
+  font-family: "Josefin Sans", sans-serif;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+body {
+  background-color: #282c34;
+}
+
+.App {
+  margin: 0;
+  min-height: 100vh;
+  text-align: center;
+  padding: 24px;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  margin: 150px auto;
+  width: 95vw;
+
+  // @include tablet {
+  //   width: 90%;
+  // }
+}
+
+.App-link {
+  color: #61dafb;
+}

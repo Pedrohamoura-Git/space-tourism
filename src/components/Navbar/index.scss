@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.divider {
+    border: 1px solid red;
+    height: 1px;
+    // width: 450px;
+}
+
+.burger-plc {
+    border-radius: 0px;
+    height: 21px;
+    outline: 1px solid red;
+    width: 24px;
+}
+
+.links-list {
+    // display: flex;
+    list-style-type: none;
+    text-align: left;
+
+    .link > * {
+        margin-top: 16px;
+        text-decoration: none;
+    }
+}

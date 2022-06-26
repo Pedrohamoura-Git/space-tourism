@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom'
 
 import logo from '../../assets/shared/logo.svg'
-import './index.css'
+import './index.scss'
 
 export default function Navbar() {
 
@@ -10,20 +10,22 @@ export default function Navbar() {
             <img src={logo} alt="logo" />
             <span className="divider" />
 
-            <ul className="links-list">
+            <div className="burger-plc" />
+
+            {/* <ul className="links-list">
                 <li className="link">
-                    <Link to="/">Home</Link>
+                    <Link to="/">00 Home</Link>
                 </li>
                 <li className="link">
-                    <Link to="/destination">destination</Link>
+                    <Link to="/destination">01 destination</Link>
                 </li>
                 <li className="link">
-                    <Link to="/crew">crew</Link>
+                    <Link to="/crew">02 crew</Link>
                 </li>
                 <li className="link">
-                    <Link to="/technology">technology</Link>
+                    <Link to="/technology">04 technology</Link>
                 </li>
-            </ul>
+            </ul> */}
         </nav>
     )
 }   
