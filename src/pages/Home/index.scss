@@ -2,7 +2,6 @@
     margin-top: 3rem;
     
     .title {
-        margin-bottom: 81px;
         
         .small {
             font-family: "Barlow Condensed", sans-serif;
@@ -18,14 +17,15 @@
             margin-top: 1rem;
             text-transform: uppercase;
         }
+    }
 
-        .description {
-            color: $color-secondary;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
-            font-family: 'Barlow';
-            font-weight: 400;
-            font-size: 0.935rem; //15px
-            line-height: 25px;
-            margin-top: 1rem;
-        }
+    .description {
+        color: $color-secondary;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
+        font-family: 'Barlow';
+        font-weight: 400;
+        font-size: 0.935rem; //15px
+        line-height: 25px;
+        margin-top: 1rem;
+        margin-bottom: 5.06rem; //81px
     }
 }
