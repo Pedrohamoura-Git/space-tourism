@@ -1,70 +1,85 @@
-# Getting Started with Create React App
+# Frontend Personal Project - Poke Shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- Live Site URL: - <a href="https://pedro-poke-shop.netlify.app" target="_blank" alt="">Poke Shop</a>
+## Table of contents
 
-## Available Scripts
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Screenshots](#screenshots)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
 
-In the project directory, you can run:
+## Overview
 
-### `npm start`
+### The challenge
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Your users should be able to:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- (V) View the optimal layout for each page depending on their device's screen size
+- (V) See hover states for all interactive elements throughout the site
+- (V) Add new item to the cart
+- (V) See the items in the cart even when the pages reloads
+- (V) Search a pokemon by name
+- (V) Change the item quant in the CartPage
 
-### `npm test`
+### Screenshots
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  *OBS: THE IMAGES MAY NOT BE IN THE SAME SCALE.*
 
-### `npm run build`
+# Static Preview
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<span>
+  <img src="/public/screenshots/poke-shop-desktop.png" width="640px" style="display: inline">
+</span>
+<span>
+  <img src="/public/screenshots/poke-shop-mobile.png" height="640px" style="display: inline">
+</span>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## My process
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### Built with
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Semantic HTML5 markup
+- Flexbox
+- CSS custom properties
+- CSS Grid
+- CSS Animations
+- - CSS Transitions
+- - CSS Transform
+- - CSS Animate.css library 
+- - CSS CSS-animated delicious hamburgers library
+- Sass
+- - Sass Variables
+- - Sass Mixins
+- Vue.JS
+- - VueX
+- - Vue Router
+- Mobile-first workflow
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### What I learned
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This project teached me a lot: I had to learn new js functions such as map and reduce, how to better organize my store with modules, how to create and export js files so I can reuse them in other components, how to use router-view transitions, how to work with pagination & carousel components and how to better work with promises.
 
-## Learn More
+### Continued development
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+While working in this project I realized that promises can be confusing, so I want to create another project with APIs to get used to it.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### Useful resources
 
-### Code Splitting
+- <a href="https://github.com/kapoko/delicious-hamburgers" alt="Delicious Hamburgers" target="_blank">Delicious Hamburgers</a>
+- <a href="https://github.com/athanstan/css-pokeball" alt="CSS-Pokeball" target="_blank">CSS-Pokeball</a>
+- <a href="https://animate.style" alt="CSS Transitions" target="_blank">CSS Transitions</a>
+- <a href="https://www.w3schools.com/howto/howto_css_hide_arrow_number.asp" alt="How TO - Hide Arrows From Input Number." target="_blank">How To - Hide Arrows From Input Number</a>
+- <a href="https://stackoverflow.com/questions/38370876/select-penultimate-element" alt="Select penultimate element" target="_blank">Select penultimate element</a>
+- <a href="https://jerickson.net/basics-of-mapstate-vuex/" alt="The basics of mapState" target="_blank">The basics of mapState</a>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Author
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- My Portfolio - [portfolio](https://pedro-meuportfolio.netlify.app)
+- Instagram - [@ph_pedrohenrique21](https://www.instagram.com/ph_pedrohenrique21/)
