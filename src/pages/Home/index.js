@@ -1,3 +1,4 @@
+import { MainButton } from '../../components/Navbar/Buttons/MainButton';
 import './index.scss';
 
 export default function Home() {
@@ -15,10 +16,12 @@ export default function Home() {
                     outer space and not hover kind of on the edge of it. Well sit back, and relax 
                     because we’ll give you a truly out of this world experience!
                 </p>
-
-{/* Explore */}
-                
             </h1>
+
+            <MainButton 
+                name="Explore" 
+                className="main-button"
+            />
         </main>
     )
 }
