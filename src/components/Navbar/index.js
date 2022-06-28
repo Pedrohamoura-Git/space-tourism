@@ -1,6 +1,7 @@
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 import logo from '../../assets/shared/logo.svg'
+import { Burger } from '../Buttons/Burger'
 import './index.scss'
 
 export default function Navbar() {
@@ -10,7 +11,7 @@ export default function Navbar() {
             <img src={logo} alt="logo" className='logo'/>
             <span className="divider" />
 
-            <div className="burger-plc" />
+            <Burger />
 
             {/* <ul className="links-list">
                 <li className="link">
