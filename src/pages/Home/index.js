@@ -1,4 +1,4 @@
-import { MainButton } from '../../components/Navbar/Buttons/MainButton';
+import { MainButton } from '../../components/Buttons/MainButton';
 import './index.scss';
 
 export default function Home() {
