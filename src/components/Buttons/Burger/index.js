@@ -12,10 +12,10 @@ export const Burger = () => {
         onClick={ () => setIsActive(!isActive) }
     >
         <div className="inner">
-            <span className="bar"></span>
-            <span className="bar"></span>
-            <span className="bar"></span>
-        </div>
+            <span className="bar"/>
+            <span className="bar"/>
+            <span className="bar"/>
+        </div>      
     </button>  
 )
 }
