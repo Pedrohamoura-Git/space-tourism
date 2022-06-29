@@ -62,6 +62,8 @@ Users should be able to:
 
 - <a href="https://medium.com/@zaeemkhaliq/how-to-globally-access-sass-scss-variables-in-react-app-563212667ae" alt="How to globally access SASS/SCSS variables in React app OR NextJs app (both in SCSS file or JS file)" target="_blank">How to globally access SASS/SCSS variables in React app OR NextJs app (both in SCSS file or JS file)</a>
 - <a href="https://www.npmjs.com/package/dart-sass" alt="How to install dart-sass" target="_blank">How to install dart-sass</a>
+- <a href="https://kapoko.github.io/delicious-hamburgers/" alt="Delicious hamburgers" target="_blank">Delicious hamburgers</a>
+- <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter" alt=backdrop-filter" target="_blank">backdrop-filter</a>
 
 ## Author
 
