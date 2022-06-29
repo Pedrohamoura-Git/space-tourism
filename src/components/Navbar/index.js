@@ -1,4 +1,4 @@
-// import { Link } from 'react-router-dom'
+import { Link } from 'react-router-dom'
 
 import logo from '../../assets/shared/logo.svg'
 import { Burger } from '../Buttons/Burger'
@@ -13,20 +13,32 @@ export default function Navbar() {
 
             <Burger />
 
-            {/* <ul className="links-list">
-                <li className="link">
-                    <Link to="/">00 Home</Link>
+            <ul className="link-list">
+                <li>
+                    <Link className="link" to="/">
+                        <span className="number">00</span>
+                        <span className='name'>Home</span>
+                    </Link>
                 </li>
-                <li className="link">
-                    <Link to="/destination">01 destination</Link>
+                <li>
+                    <Link className="link" to="/destination">
+                        <span className="number">01</span>
+                        <span className='name'>destination</span>
+                    </Link>
                 </li>
-                <li className="link">
-                    <Link to="/crew">02 crew</Link>
+                <li>
+                    <Link className="link" to="/crew">
+                        <span className="number">02</span>
+                        <span className='name'>crew</span>
+                    </Link>
                 </li>
-                <li className="link">
-                    <Link to="/technology">04 technology</Link>
+                <li>
+                    <Link className="link" to="/technology">
+                        <span className="number">04</span>
+                        <span className='name'>technology</span>
+                    </Link>
                 </li>
-            </ul> */}
+            </ul>
         </nav>
     )
 }   

@@ -20,13 +20,41 @@
     color: $color-primary;
 }
 
-.links-list {
-    // display: flex;
+.link-list {
+    background-color: rgba(255, 255, 255, 0.04);
+    // PROCURAR OUTRA FORMA DE CRIAR O EFEITO BLUR
+    backdrop-filter: blur(81.5485px);
+    height: 100vh;
+    width: 254px;
+    padding-top: 96px;
+    padding-left: 32px;
+    position: absolute;
+    left: 121px;
+    top: 0px;
+    
+
     list-style-type: none;
     text-align: left;
 
-    .link > * {
-        margin-top: 16px;
+    li {
+        font-family: "Barlow Condensed", sans-serif;
+        letter-spacing: 2.7px;
+        margin-top: 32px;
         text-decoration: none;
+
+        .link {
+            color: $color-primary;
+    
+            .number {
+                font-weight: 700;
+            }
+    
+            .name {
+                font-weight: 400;
+                margin-left: 11px;
+                text-transform: uppercase;
+            }
+
+        }
     }
 }
