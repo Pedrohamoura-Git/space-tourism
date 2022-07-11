@@ -64,6 +64,7 @@ Users should be able to:
 - <a href="https://www.npmjs.com/package/dart-sass" alt="How to install dart-sass" target="_blank">How to install dart-sass</a>
 - <a href="https://kapoko.github.io/delicious-hamburgers/" alt="Delicious hamburgers" target="_blank">Delicious hamburgers</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter" alt=backdrop-filter" target="_blank">backdrop-filter</a>
+- <a href="https://bobbyhadz.com/blog/react-pass-data-from-child-to-parent" alt=child to parent data" target="_blank">Passing data from child to parent component in ReactJS</a>
 
 ## Author
 
