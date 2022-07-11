@@ -5,12 +5,12 @@
     font-size: 1.25rem; //20px
     height: 150px;
     width: 150px;
-    outline: 0.1rem solid $bg-color-primary-transparent;
+    outline: 0.1rem solid $color-primary-transparent;
     text-transform: uppercase;
     transition: all $transition-quick;
     
     &:hover {
-        outline: 3rem solid $bg-color-primary-transparent;
+        outline: 3rem solid $color-primary-transparent;
         transition: all $transition-quick;
     }
 }
