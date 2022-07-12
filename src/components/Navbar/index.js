@@ -1,9 +1,10 @@
-import { Link } from 'react-router-dom'
-import { useState } from 'react'
-
-import logo from '../../assets/shared/logo.svg'
-import { Burger } from '../Buttons/Burger'
 import './index.scss'
+import { useState } from 'react'
+import { Link } from 'react-router-dom'
+import { CSSTransition } from 'react-transition-group';
+
+import { Burger } from '../Buttons/Burger'
+import logo from '../../assets/shared/logo.svg'
 
 export default function Navbar() {
     const [isActive, setIsActive] = useState(false);
@@ -24,7 +25,13 @@ export default function Navbar() {
                         toggleBurger={toggleBurger}
                     />
                     
-                    {isActive &&
+                    <CSSTransition
+                        in={isActive}
+                        timeout={500}
+                        classNames="slide"
+                        className="transition-wrapper"
+                        unmountOnExit
+                    >
                         <ul className="link-list">
                             <li>
                                 <Link className="link" to="/">
@@ -51,7 +58,7 @@ export default function Navbar() {
                                 </Link>
                             </li>
                         </ul>
-                    }
+                    </CSSTransition>
                 </div>
             </div>
         </nav>
