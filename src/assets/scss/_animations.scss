@@ -1,0 +1,23 @@
+
+.slide-enter {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  .slide-enter-active {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+    transition: opacity $transition-quick, transform $transition-quick;
+  }
+  .slide-exit {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+  .slide-exit-active {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+    transition: opacity calc($transition-quick * 4), transform calc($transition-quick * 4);
+  }
