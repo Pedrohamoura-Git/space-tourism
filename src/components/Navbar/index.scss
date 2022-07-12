@@ -7,7 +7,7 @@
     }
 
     .divider {
-        border: 1px solid red;
+        // border: 1px solid red;
         height: 1px;
         width: 450px;
     }
@@ -23,9 +23,7 @@
         align-items: center;
         justify-content: space-between;
         
-        .link-list {
-        // DESIGN ORIGINAL
-            // background: rgba(255, 255, 255, 0.04);
+        .transition-wrapper {
             background: $bg-color-primary-transparent;
             height: 100vh;
             width: 254px;
@@ -34,10 +32,15 @@
             position: absolute;
             left: 121px;
             top: 0px;
-            
-            
+        }
+        
+        .link-list {
+            outline: 1px solid green;
+            // DESIGN ORIGINAL
+            // background: rgba(255, 255, 255, 0.04);
             list-style-type: none;
             text-align: left;
+            transition: all $transition-quick;
         }
     
         li {
@@ -63,3 +66,4 @@
         }
     }
 }
+  
