@@ -7,7 +7,10 @@ import {
 
 import './assets/scss/index.scss';
 
+// Pages
 import Home from './pages/Home';
+import destination from './pages/destination';
+// Components
 import Navbar from './components/Navbar';
 
 
@@ -19,9 +22,8 @@ function App() {
           <Navbar />
             <div className="content">
               <Switch>
-                <Route path="/">
-                  <Home />
-                </Route>
+                <Route path="/" exact component={ Home } />
+                <Route path="/destination" exact component={ destination } />
               </Switch>
             </div>
         </div>
