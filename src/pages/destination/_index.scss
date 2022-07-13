@@ -1,0 +1,10 @@
+.destination {
+    outline: 1px solid red;
+    .background {
+        // background-image: url('../../assets/images/destination/background-destination-mobile.jpg');
+        background-image: url('@/assets/images/destination/background-destination-mobile.jpg');
+        background-position: cover;
+        height: 100vh;
+        width: 100%;
+    }
+}
