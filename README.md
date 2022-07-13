@@ -65,6 +65,7 @@ Users should be able to:
 - <a href="https://kapoko.github.io/delicious-hamburgers/" alt="Delicious hamburgers" target="_blank">Delicious hamburgers</a>
 - <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/backdrop-filter" alt="backdrop-filter" target="_blank">backdrop-filter</a>
 - <a href="https://bobbyhadz.com/blog/react-pass-data-from-child-to-parent" alt="child to parent data" target="_blank">Passing data from child to parent component in ReactJS</a>
+- <a href="https://blog.logrocket.com/react-transition-group-examples-tutorial/" alt="react transition group" target="_blank">react transition group</a>
 
 ## Author
 
