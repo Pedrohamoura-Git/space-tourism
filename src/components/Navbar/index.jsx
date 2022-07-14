@@ -18,7 +18,7 @@ export default function Navbar() {
             <div className='navbar__background-effect' />
             <div className='navbar__content'>
                 <img src={logo} alt="logo" className='logo'/>
-                <span className="divider" />
+                <hr className="divider" />
 
                 <Burger
                     isActive={isActive}
