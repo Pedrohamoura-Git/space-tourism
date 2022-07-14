@@ -18,15 +18,11 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <div className='wrapper'>
-          <Navbar />
-            <div className="content">
-              <Switch>
-                <Route path="/" exact component={ Home } />
-                <Route path="/destination" exact component={ destination } />
-              </Switch>
-            </div>
-        </div>
+        <Navbar />
+        <Switch>
+          <Route path="/" exact component={ Home } />
+          <Route path="/destination" exact component={ destination } />
+        </Switch>
       </div>
     </Router>
   );
