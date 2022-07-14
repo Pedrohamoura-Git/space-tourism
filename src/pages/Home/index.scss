@@ -1,9 +1,10 @@
-.home-container {
-    margin-top: 3rem;
-    text-align: center;
-    
+.home {
+    background: url('../../assets/images/home/background-home-mobile.jpg') no-repeat #0B0D17;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+
     .title {
-        
         .small {
             color: $color-secondary;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     ;
             font-family: "Barlow Condensed", sans-serif;
