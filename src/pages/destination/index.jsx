@@ -1,21 +1,27 @@
 import './_index.scss';
 
+// imgs
+import moonImg from '../../assets/images/destination/image-moon.png';
+
 export default function destination() {
     return (
         <main className="destination">
             <div className="wrapper">
                 <div className='content'>
                     <section className='hero'>
-                        <h1>01</h1><span>Pick Your Destination</span>
+                        <h1>
+                            <span>01</span>
+                            <span>Pick Your Destination</span>
+                        </h1>
 
                         <div className='celestial-bodies'>
-                            <img alt="celestial body" className='celestial-bodies__img' />
+                            <img src={ moonImg } alt="celestial body" className='celestial-bodies__img' />
 
                             <ul className='celestial-bodies__list'>
-                                <li>Moon</li>
-                                <li>Mars</li>
-                                <li>Europa</li>
-                                <li>Titan</li>
+                                <button className='celestial-bodies__list__btn'>Moon</button>
+                                <button className='celestial-bodies__list__btn'>Mars</button>
+                                <button className='celestial-bodies__list__btn'>Europa</button>
+                                <button className='celestial-bodies__list__btn'>Titan</button>
                             </ul>
                         </div>
                     </section>
